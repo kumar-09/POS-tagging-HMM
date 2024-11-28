@@ -113,4 +113,4 @@ if __name__ == "__main__":
     print("Training the HMM POS tagger... This may take a few minutes.")
     trained_tagger = train_tagger()
     print("Tagger trained successfully! Launching the Gradio interface...")
-    iface.launch()
+    iface.launch(share=True)
